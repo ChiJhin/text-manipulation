@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.output {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 50px;
+    position: relative;
+    height: 100px;
+}
+
+.char {
+    display: inline-block;
+    margin: 5px;
+    padding: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.char.selected {
+    background-color: yellow;
+}
+
+.selected-group {
+    background-color: yellow;
+}
+
+.dragging {
+    position: absolute;
+    background-color: #ccc;
+    cursor: move;
+    z-index: 10;
+}
+
